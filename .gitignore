@@ -1,0 +1,191 @@
+# TModLoader Enhanced - .gitignore
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.metadata
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Build and Distribution
+build/
+dist/
+out/
+target/
+bin/
+obj/
+*.exe
+*.msi
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+*.7z
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.temp
+*.cache
+logs/
+temp/
+tmp/
+
+# Configuration Files (with sensitive data)
+config.local.*
+.env
+.env.local
+.env.production
+secrets.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Node.js (for documentation build)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Python (for scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+
+# .NET (for C# components)
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+packages/
+*.nupkg
+*.snupkg
+.vs/
+
+# Java (if any Java components)
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+# Documentation Build
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# Testing
+coverage/
+*.cover
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup Files
+*.bak
+*.backup
+*.old
+*~
+
+# Archive Files
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# Game-specific Files
+saves/
+worlds/
+players/
+mods/local/
+ModLoader/
+tModLoader/Logs/
+tModLoader/ModSources/
+tModLoader/Mods/Enabled.json
+
+# Installation Files
+setup-assistant/
+installers/
+packages/
+
+# User-specific Configuration
+user-config/
+local-settings/
+personal/
+
+# Performance and Profiling
+*.prof
+*.trace
+*.perf
+
+# Security
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+*.jks
+
+# Miscellaneous
+*.orig
+*.rej
+.svn/
+.hg/
+.bzr/
+
+# Custom Project Exclusions
+# Add project-specific files to ignore here 

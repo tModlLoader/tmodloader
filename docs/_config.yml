@@ -1,0 +1,154 @@
+# Jekyll Configuration for TModLoader Enhanced Documentation
+
+# Site settings
+title: "TModLoader Enhanced - Professional Offline Setup Assistant"
+description: "Complete TModLoader deployment solution for offline environments, educational institutions, and enterprise gaming setups. Advanced mod management, server hosting, and professional-grade tools."
+baseurl: "/tmodloader-main"
+url: "https://tmodloader.github.io"
+
+# SEO settings
+author: "TModLoader Enhanced Team"
+logo: "/assets/images/logo.png"
+social:
+  name: "TModLoader Enhanced"
+  links:
+    - "https://github.com/tmodloader/tmodloader-main"
+    - "https://discord.gg/tmodloader"
+    - "https://tmodloader.net"
+
+# Twitter Card settings
+twitter:
+  username: "tmodloader"
+  card: "summary_large_image"
+
+# Facebook Open Graph
+facebook:
+  app_id: "your-facebook-app-id"
+  publisher: "https://www.facebook.com/tmodloader"
+
+# Google Analytics
+google_analytics: "G-XXXXXXXXXX"
+
+# Search Console
+google_site_verification: "your-google-site-verification-code"
+
+# Theme and plugins
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-mentions
+  - jekyll-relative-links
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Collections
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:name/
+  tutorials:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "TModLoader Enhanced Team"
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "guide"
+  - scope:
+      path: ""
+      type: "tutorials"
+    values:
+      layout: "tutorial"
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Installation"
+    url: "/installation/"
+  - title: "Guides"
+    url: "/guides/"
+  - title: "API Reference"
+    url: "/api/"
+  - title: "Support"
+    url: "/support/"
+
+# Footer links
+footer_links:
+  - title: "GitHub"
+    url: "https://github.com/tmodloader/tmodloader-main"
+    icon: "github"
+  - title: "Discord"
+    url: "https://discord.gg/tmodloader"
+    icon: "discord"
+  - title: "Documentation"
+    url: "https://docs.tmodloader.net"
+    icon: "book"
+
+# SEO keywords
+keywords: 
+  - "TModLoader"
+  - "Terraria mods"
+  - "offline setup"
+  - "gaming server"
+  - "educational gaming"
+  - "enterprise deployment"
+  - "mod manager"
+  - "server hosting"
+
+# Site verification
+bing_site_verification: "your-bing-verification-code"
+yandex_site_verification: "your-yandex-verification-code"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - SECURITY.md
+
+# Include files
+include:
+  - _pages
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# Sass settings
+sass:
+  style: compressed
+
+# Compression
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false 

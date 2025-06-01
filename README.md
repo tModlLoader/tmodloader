@@ -57,6 +57,7 @@ sudo ./setup.sh
 - **Educational Licensing**: Compliance with educational institution requirements
 - **Group Policy Support**: Windows domain integration
 
+
 ![Advanced Mod Management Interface](https://i.imgur.com/9mSmgLW.png)
 
 ## 🔧 System Requirements

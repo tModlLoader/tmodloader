@@ -57,16 +57,7 @@ sudo ./setup.sh
 - **Educational Licensing**: Compliance with educational institution requirements
 - **Group Policy Support**: Windows domain integration
 
-## 📸 Screenshots
-
 ![Advanced Mod Management Interface](https://i.imgur.com/9mSmgLW.png)
-*Professional mod management interface with batch operations and conflict resolution*
-
-![Server Setup Wizard](https://i.imgur.com/placeholder1.png)
-*One-click server deployment with automated configuration*
-
-![Performance Dashboard](https://i.imgur.com/placeholder2.png)
-*Real-time performance monitoring and optimization tools*
 
 ## 🔧 System Requirements
 
